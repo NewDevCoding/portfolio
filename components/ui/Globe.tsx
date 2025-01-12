@@ -249,7 +249,7 @@ export function World(props: WorldProps) {
   return (
     <Canvas scene={scene} camera={new PerspectiveCamera(50, aspect, 180, 1800)}>
       <WebGLRendererConfig />
-      <ambientLight color={globeConfig.ambientLight} intensity={0.6} />
+      {/* <ambientLight color={globeConfig.ambientLight} intensity={0.6} />
       <directionalLight
         color={globeConfig.directionalLeftLight}
         position={new Vector3(-400, 100, 400)}
@@ -262,7 +262,7 @@ export function World(props: WorldProps) {
         color={globeConfig.pointLight}
         position={new Vector3(-200, 500, 200)}
         intensity={0.8}
-      />
+      /> */}
       <Globe {...props} />
       <OrbitControls
         enablePan={false}

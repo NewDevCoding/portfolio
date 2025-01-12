@@ -97,7 +97,7 @@ export const BentoGridItem = ({
         </div>
       </div>
 
-      {id === 2 && <GridGlobe  />}
+      {/* {id === 2 && <GridGlobe  />} */}
     </div>
   );
 };
