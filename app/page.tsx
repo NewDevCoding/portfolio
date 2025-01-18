@@ -4,6 +4,10 @@ import { FaHome } from "react-icons/fa";
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
+import Experience from "@/components/experience";
+import Approach from "@/components/Approach";
+import Footer from "@/components/Footer";
+
 
 export default function Home() {
 
@@ -16,6 +20,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Experience />
+        <Footer />
       </div>
     </main>
   );
